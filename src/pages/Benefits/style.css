@@ -1,0 +1,28 @@
+.edit_btns.btn-benefits {
+    display: table-cell !important;
+}
+
+.update_status_benefit {
+    background: linear-gradient(180deg, rgba(15, 105, 93, 0.8) 10%, rgba(19, 197, 173, 0.78) 100%);
+    border: none;
+    color: white;
+    padding: 7px 9px;
+    font-size: 13px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+
+.ellipsis {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 200px;
+    display: inline-block;
+
+}
+
+/* .modal-header {
+    border-bottom: none !important;
+} */

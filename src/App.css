@@ -1,0 +1,120 @@
+
+
+
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} 
+
+
+
+/* .....modal buttons ....... */
+
+
+.modal_buttons{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 5px;
+}
+
+.modal_buttons .confirm_button,
+.modal_buttons .cancel_button{
+  border: none;
+  outline: none;
+  padding: 4px 10px;
+  font-size: 13px;
+  color: #fff;
+  background-color: #2C9FAF !important;
+  border-radius: 5px;
+}
+
+.modal_buttons .cancel_button{
+  
+  background-color: #858796 !important;
+}
+
+.modal_buttons .confirm_button:hover{
+  background-color: #24818e !important;
+  
+}
+.modal_buttons .cancel_button:hover{
+  background-color: #68697a !important;
+
+}
+
+
+.modal_tabs{
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #bababa;
+  margin-block: 20px;
+
+}
+
+.modal_tab{
+  padding: 5px 10px;
+  border-radius: 6px 6px 0 0 ;
+  background-color: #fff;
+  color: #7b7b7b;
+  cursor: pointer;
+}
+
+.modal_tab.active{
+  border: 1px solid #bababa;
+  border-bottom: none;
+  transform: translateY(1px);
+
+}
+
+.modal_tab:hover{
+  border: 1px solid #d6d6d6;
+  border-bottom: none;
+  color: #045476;
+  
+}
+
+
+.pointer{
+  cursor: pointer;
+}
+
+/* Custom Antd Table Header Style */
+.custom-header .ant-table-thead > tr > th {
+  background: linear-gradient(#636363, #171717);
+  color: white; /* White text */
+  font-weight: bold; /* Bold text */
+  position: sticky;
+  top: 0;
+  /* z-index: 2; */
+  text-align: center; /* Center text */
+  padding: 10px; /* Padding for spacing */
+}
+
+.ant-table-cell{
+  word-wrap: normal;
+  text-wrap: nowrap;
+}
+
+.custom-header .ant-table-thead > tr > th:last-child {
+  /* border-right: none; Remove border for last column */
+}
+
+
+.z_index{
+  z-index: 9999999999999999999999999;
+}
+
+.text_sm{
+  text-overflow: ellipsis;
+  white-space:nowrap ;
+  
+  word-break: normal;
+  width: 200px;
+}

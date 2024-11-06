@@ -1,0 +1,136 @@
+.inputs_group {
+  display: flex;
+  gap: 20px;
+}
+
+.inputs_group input,
+.inputs_group select {
+  width: 300px !important;
+}
+
+.inputs_group .input {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+
+.inputs_group .input label {
+  color: #6e707e;
+  font-size: 14px;
+}
+
+.inputs_group .input select {
+  padding: 10px;
+  outline: none;
+  border: 1px solid #d1d3e2;
+  color: #6e707e;
+  width: 100%;
+  border-radius: 3px;
+  display: flex;
+  padding: 8px 0.75rem;
+}
+
+.race_page .btns {
+  display: flex;
+  gap: 10px;
+  margin: 20px 0px;
+}
+
+.race_table {
+  margin-bottom: 30px;
+  max-width: 1130px;
+  width: 100%;
+  overflow: auto !important;
+  height: 500px;
+  margin: 10px auto;
+  box-shadow: 0 0.15rem 1.75rem 0 rgba(58, 59, 69, 0.15) !important;
+}
+
+.modal_form {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 20px;
+}
+
+.modal_input_group {
+  width: 100%;
+}
+
+.modal_input_group select {
+  padding: 12px 0.75rem;
+  color: #6e707e;
+  border: 1px solid #d1d3e2;
+  border-radius: 3px;
+  transition: all 0.3s;
+  outline: none;
+  margin-top: 0px;
+}
+
+.modal_input_group label {
+  color: #6e707e !important;
+  font-size: 14px !important;
+}
+
+.edit_btns {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.edit_btns button:first-of-type {
+  background-color: #4e73df;
+  color: white;
+}
+
+.edit_btns button:last-of-type {
+  background-color: #e74a3b;
+  color: white;
+}
+
+.edit_btns button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 7px;
+  border-radius: 5px;
+}
+
+/* Extra small devices (phones, less than 576px) */
+@media (max-width: 575.98px) {
+  /* Your styles here */
+  .modal_form {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr) !important;
+    gap: 20px;
+  }
+}
+
+/* Small devices (tablets, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  /* Your styles here */
+  .modal_form {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr) !important;
+    gap: 20px;
+  }
+}
+
+/* Medium devices (desktops, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  /* Your styles here */
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  /* Your styles here */
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+  /* Your styles here */
+}
+
+/* Extra extra large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+  /* Your styles here */
+}

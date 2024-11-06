@@ -1,0 +1,91 @@
+
+
+.custom_select  {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  width: 100%;
+}
+.custom_select.inRow{
+  flex-direction: row;
+  align-items: center;
+  gap: 2;
+}
+
+.select_input_container{
+  position: relative;
+
+}
+
+.custom_select input ,
+.custom_select select {
+  padding: 12px 0.75rem;
+  color : #6e707e;
+  border: 1px solid #d1d3e2;
+  border-radius: 3px;
+  transition: all 0.3s;
+  outline: none;
+  width: 100%;
+
+}
+
+
+.custom_select label {
+  color: #6e707e;
+  font-size: 14px;
+}
+
+.custom_select label span {
+  color: #e74a3b ;
+}
+
+.custom_select input:focus {
+  border-color: #bac8f3;
+  box-shadow: 0 0 0 0.2rem rgba(78, 115, 223, 0.25);
+}
+
+.custom_select_list{
+  position: absolute;
+  top: 100%;
+  background-color: #fff;
+  border: 1px solid #6e707e;
+  border-radius:  0 0 5px 5px;
+  left: 0;
+  right: 0;
+  /* padding: 10px; */
+  display: flex;
+  flex-direction: column;
+  z-index: 1000000000 !important;
+  max-height: 400px;
+  overflow: auto;
+}
+
+.select_input_container .select_icon{
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  color: #727272;
+}
+.select_input_container .select_icon.active svg{
+  transform: rotate(180deg);
+  transform-origin: center;
+  
+  }
+
+
+.custom_select_list .custom_select_item{
+  font-size: 13px;
+  padding: 4px 5px;
+  color: #727272;
+  cursor: pointer;
+}
+.custom_select_list .custom_select_item.active{
+  background-color: #337AB7;
+  color: #FFF;
+}
+
+.custom_select_list .custom_select_item:hover{
+  background-color: #337AB7;
+  color: #fff;
+}

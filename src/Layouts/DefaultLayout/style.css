@@ -1,0 +1,79 @@
+
+
+.main_layout{
+  display: flex;
+}
+.main_layout .body_content{
+  width: 100%;
+  overflow: hidden;
+  
+}
+.main_layout .body_content.open{
+  width: calc((100% - 250px));
+  margin-left: auto;
+}
+
+.sidebar_content{
+  z-index: 1000;
+
+}
+
+
+  
+/* Extra small devices (phones, less than 576px) */
+@media (max-width: 575.98px) {
+  /* Your styles here */
+  .sidebar_content{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+  }
+  /* Your styles here */
+  .sidebar_content{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+  }
+  
+  .main_layout .body_content.open{
+    width: calc((100%));
+    margin-left: auto;
+  }
+}
+
+/* Small devices (tablets, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  /* Your styles here */
+  .sidebar_content{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+  }
+
+  .main_layout .body_content.open{
+    width: calc((100%));
+    margin-left: auto;
+  }
+
+}
+
+/* Medium devices (desktops, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  /* Your styles here */
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  /* Your styles here */
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+  /* Your styles here */
+}
+
+/* Extra extra large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+  /* Your styles here */
+}

@@ -1,0 +1,21 @@
+.search_table_container{
+  margin-bottom: 40px !important;
+  margin: 0px auto;
+  width: 100v;
+  /* height: 500px; */
+  overflow: auto !important;
+  padding-inline: 20px;
+  /* margin-bottom: 30px;
+  max-width: 1130px;
+  width: 100%;
+  overflow: auto !important;
+  height: 500px ;
+  box-shadow: 0 0.15rem 1.75rem 0 rgba(58, 59, 69, 0.15) !important; */
+}
+
+
+
+.search_container{
+  position: relative;
+  z-index: 100;
+}

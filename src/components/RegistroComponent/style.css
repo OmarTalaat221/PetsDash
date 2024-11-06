@@ -1,0 +1,33 @@
+.registro_image {
+    width: 100% !important;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background: #fff;
+    padding: 0;
+}
+
+
+.registro_img-div {
+    width: 700px !important;
+}
+
+.registro_image img {
+
+    width: 700px !important;
+
+    object-fit: contain;
+}
+
+.pet_data_registro {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 43.1% !important;
+    transform: translateX(145px) !important;
+    gap: 11px !important;
+    font-size: 20px !important;
+    font-weight: 600;
+}

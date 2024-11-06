@@ -1,0 +1,54 @@
+.service_page form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.inputs_group {
+   display: grid;
+   grid-template-columns: repeat(3,1fr);
+}
+
+.inputs_group input {
+    padding: 8px 0.75rem;
+    color : #6e707e;
+    border: 1px solid #d1d3e2;
+    border-radius: 3px;
+    transition: all 0.3s;
+    outline: none;
+}
+
+.inputs_group:last-of-type {
+    margin-top: 20px !important;
+}
+
+.inputs_group select:focus , 
+.inputs_group input:focus{
+    box-shadow: 0 0 0 0.2rem rgba(78, 115, 223, 0.25);
+}
+
+.btns {
+    display: flex;
+    margin-top: 10px;
+    gap: 5px;
+}
+
+.service_table {
+    margin-bottom: 30px;
+    max-width: 1130px;
+    margin: 0px auto;
+    width: 100%;
+    overflow: auto !important;
+    height: 500px ;
+    box-shadow: 0 0.15rem 1.75rem 0 rgba(58, 59, 69, 0.15) !important;
+}
+
+.edit_btn button{
+    background-color: #4e73df;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 7px;
+    border-radius: 5px;
+}

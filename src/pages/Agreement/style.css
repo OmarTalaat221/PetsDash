@@ -1,0 +1,67 @@
+.agreemetns_inputs {
+  display: grid;
+  grid-template-columns: 33.33% auto;
+  row-gap: 12px;
+  gap: 15px;
+}
+
+
+.agreement_card_buttons {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.agreement_table_container {
+  margin-bottom: 30px;
+  max-width: 1130px;
+  width: 100%;
+  overflow: auto !important;
+  height: 500px;
+  margin: 10px auto;
+  box-shadow: 0 0.15rem 1.75rem 0 rgba(58, 59, 69, 0.15) !important;
+}
+
+.edit_btns {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin: auto;
+}
+
+.edit_btns button:first-of-type {
+  background-color: #4e73df;
+  color: white;
+}
+
+.edit_btns button:last-of-type {
+  background-color: #e74a3b;
+  color: white;
+}
+
+.edit_btns button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 7px;
+  border-radius: 5px;
+}
+
+.serach_agreements {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+@media (max-width : 1200px) {
+  .serach_agreements {
+    grid-template-columns: repeat(2, 1fr)
+  }
+}
+
+@media (max-width : 568px) {
+  .serach_agreements {
+    grid-template-columns: repeat(1, 1fr)
+  }
+}

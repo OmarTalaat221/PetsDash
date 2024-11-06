@@ -1,0 +1,33 @@
+.more_info_for_animal {
+    background: linear-gradient(180deg, rgba(15, 105, 93, 0.8) 10%, rgba(19, 197, 173, 0.78) 100%);
+    border: none;
+    color: white;
+    padding: 7px 9px;
+    font-size: 13px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.modal_content__ {
+    padding: 20px;
+    background-color: #f8f9fa;
+}
+
+.modal_info_section {
+    text-align: left;
+    color: #333;
+}
+
+.title_animal {
+    color: rgb(62 150 138);
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.info_animal {
+    font-size: 16px;
+    color: #495057;
+    margin-bottom: 10px;
+}

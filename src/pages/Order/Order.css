@@ -1,0 +1,24 @@
+.changeStatus-btns {
+    display: flex;
+    gap: 10px;
+}
+
+.changeStatus-btns button {
+    padding: 10px;
+    border-radius: 7px;
+}
+
+.changeStatus-btns button:hover {
+    background-color: rgba(15, 105, 93, 0.3);
+    color: white;
+}
+
+.changeStatus-btns .active {
+    background-color: rgba(15, 105, 93, 0.8);
+    color: white;
+}
+
+.custom_select_list .custom_select_item.active {
+    background-color: #fff;
+    color: #000;
+}

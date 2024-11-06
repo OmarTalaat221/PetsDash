@@ -1,0 +1,63 @@
+.navbar {
+    background-color: white;
+    width: 100%;
+    padding: 10px 0px;
+    box-shadow: 0 0.15rem 1.75rem 0 rgba(58, 59, 69, 0.15) !important;
+    position: sticky !important;
+    top: 0 !important;
+    /* z-index: 1000; */
+
+}
+
+.header-data {
+    width: fit-content;
+    display: flex;
+    gap: 30px;
+    margin-left: auto !important;
+    padding: 0px 20px;
+}
+
+.header-data .profile_data {
+    display: flex;
+    gap: 10px;
+    padding: 0px 20px;
+    border-left: 1px solid #e3e6f0;
+}
+
+.profile_cart {
+    position: relative;
+    margin: auto;
+}
+
+.profile_cart svg {
+    font-size: 1.3rem;
+    fill: #d1d3e2;
+}
+
+.profile_cart span {
+    background-color: #e74a3b;
+    color: white;
+    font-size: 10px;
+    padding: 2px 4px;
+    border-radius: 5px;
+    position: absolute;
+    top: -5px;
+    left: 13px;
+}
+
+.header-data .profile_data img {
+    border-radius: 50%;
+    width: 2rem;
+    height: 2rem;
+    margin: auto;
+}
+
+
+.open_sidebar {
+    background-color: #45C2B1;
+    line-height: 0;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    margin-inline: 20px;
+}

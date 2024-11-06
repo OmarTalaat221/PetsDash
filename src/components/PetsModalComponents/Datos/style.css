@@ -1,0 +1,87 @@
+.inputs_group_fourth {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.select_box {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.inputs_group_fourth .select_box select {
+    padding: 9px 0.75rem !important;
+}
+
+.select_box select,
+.inputs_group_fourth .text-checkbox,
+.datos_textarea textarea {
+    padding: 12px 0.75rem;
+    color: #6e707e;
+    border: 1px solid #d1d3e2;
+    border-radius: 3px;
+    transition: all 0.3s;
+    outline: none;
+}
+
+.select_box label,
+.datos_textarea label {
+    color: #6e707e;
+    font-size: 16px;
+}
+
+.select_box select:focus,
+.text-checkbox:focus,
+.datos_textarea textarea:focus {
+    border-color: #bac8f3;
+    box-shadow: 0 0 0 0.2rem rgba(78, 115, 223, 0.25);
+}
+
+.datos_checked_box {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.datos_checked_box .datos_checkbox {
+    width: fit-content;
+}
+
+.datos_checked_box .datos_checkbox input {
+    width: fit-content !important;
+}
+
+.select_box label span {
+    color: #e74a3b;
+}
+
+.inputs_group_grid {
+    margin: 20px 0px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.datos_textarea {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+
+.select-search {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.select-search label {
+    font-size: 16px;
+    color: #6e707e;
+}
+
+.select-search label span {
+    color: #e74a3b;
+}

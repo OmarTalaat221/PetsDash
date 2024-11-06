@@ -1,0 +1,68 @@
+.salud_third_grid {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+}
+
+.salud_select {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.salud_select select{
+    padding: 12px 0.75rem;
+    color : #6e707e;
+    border: 1px solid #d1d3e2;
+    border-radius: 3px;
+    transition: all 0.3s;
+    outline: none;
+}
+
+.salud_select label {
+    font-size: 16px;
+    color: #6e707e;
+}
+
+.salud_select select:focus {
+    border-color: #bac8f3;
+    box-shadow: 0 0 0 0.2rem rgba(78, 115, 223, 0.25);
+}
+
+.salud_three_grid_2 {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    gap: 20px;
+    margin: 20px 0px;
+}
+
+.salud_fourth_grid {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+}
+
+.salud_grid {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+    margin: 20px 0px;
+}
+
+.btns {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+/* 
+.btns .btn {
+    background-color: #4e73df;
+    border: 1px solid #4e73df;
+    padding: 3px 10px;
+    border-radius: 5px;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-top: 20px;
+} */

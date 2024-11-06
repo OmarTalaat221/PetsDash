@@ -1,0 +1,160 @@
+export const race = [
+            {
+                "ESPECIE": "CANINO",
+                "DESCRIPCION": "cockapoo",
+            },
+            {
+                "ESPECIE": "CANINO",
+                "DESCRIPCION": "CRUZADO",
+            },
+            {
+                "ESPECIE": "CANINO",
+                "DESCRIPCION": "BULLDOG INGLES",
+            },
+            {
+                "ESPECIE": "CANINO",
+                "DESCRIPCION": "MESTIZA",
+            },
+            {
+                "ESPECIE": "CANINO",
+                "DESCRIPCION": "MESTIZO",
+            },
+            {               
+                "ESPECIE": "CANINO",
+                "DESCRIPCION": "PERUANO",
+            },
+            {
+                "ESPECIE": "CANINO",
+                "DESCRIPCION": "shih tzu con  chihuahua",
+            },
+          
+]
+
+export const raceRegister = [
+    {
+        "__type": "ENTIDAD.ERaza",
+        "ID_ENCRIP": "dJfhzr/385M=",
+        "MASCOTA_TIPO_ID": 1,
+        "DESCRIPCION": "cockapoo",
+        "TIPO": null,
+        "ID": 0,
+        "ESPECIE": "CANINO",
+        "USUARIO": 0,
+        "CODIGO": null,
+        "OPCION": 0,
+        "vPARAM1": null,
+        "vPARAM2": null
+    },
+    {
+        "__type": "ENTIDAD.ERaza",
+        "ID_ENCRIP": "snLDW35BmZ4=",
+        "MASCOTA_TIPO_ID": 1,
+        "DESCRIPCION": "CRUZADO",
+        "TIPO": null,
+        "ID": 0,
+        "ESPECIE": "CANINO",
+        "USUARIO": 0,
+        "CODIGO": null,
+        "OPCION": 0,
+        "vPARAM1": null,
+        "vPARAM2": null
+    },
+    {
+        "__type": "ENTIDAD.ERaza",
+        "ID_ENCRIP": "SNp7tbCBwCE=",
+        "MASCOTA_TIPO_ID": 1,
+        "DESCRIPCION": "BULLDOG INGLES",
+        "TIPO": null,
+        "ID": 0,
+        "ESPECIE": "CANINO",
+        "USUARIO": 0,
+        "CODIGO": null,
+        "OPCION": 0,
+        "vPARAM1": null,
+        "vPARAM2": null
+    },
+    {
+        "__type": "ENTIDAD.ERaza",
+        "ID_ENCRIP": "rRlL9v2BIN4=",
+        "MASCOTA_TIPO_ID": 1,
+        "DESCRIPCION": "MESTIZA",
+        "TIPO": null,
+        "ID": 0,
+        "ESPECIE": "CANINO",
+        "USUARIO": 0,
+        "CODIGO": null,
+        "OPCION": 0,
+        "vPARAM1": null,
+        "vPARAM2": null
+    },
+    {
+        "__type": "ENTIDAD.ERaza",
+        "ID_ENCRIP": "Bt/pDETNl6c=",
+        "MASCOTA_TIPO_ID": 1,
+        "DESCRIPCION": "MESTIZO",
+        "TIPO": null,
+        "ID": 0,
+        "ESPECIE": "CANINO",
+        "USUARIO": 0,
+        "CODIGO": null,
+        "OPCION": 0,
+        "vPARAM1": null,
+        "vPARAM2": null
+    },
+    {
+        "__type": "ENTIDAD.ERaza",
+        "ID_ENCRIP": "Ze6S+RmhZCY=",
+        "MASCOTA_TIPO_ID": 1,
+        "DESCRIPCION": "PERUANO",
+        "TIPO": null,
+        "ID": 0,
+        "ESPECIE": "CANINO",
+        "USUARIO": 0,
+        "CODIGO": null,
+        "OPCION": 0,
+        "vPARAM1": null,
+        "vPARAM2": null
+    },
+    {
+        "__type": "ENTIDAD.ERaza",
+        "ID_ENCRIP": "aibCNrGB57I=",
+        "MASCOTA_TIPO_ID": 1,
+        "DESCRIPCION": "shih tzu con  chihuahua",
+        "TIPO": null,
+        "ID": 0,
+        "ESPECIE": "CANINO",
+        "USUARIO": 0,
+        "CODIGO": null,
+        "OPCION": 0,
+        "vPARAM1": null,
+        "vPARAM2": null
+    },
+    {
+        "__type": "ENTIDAD.ERaza",
+        "ID_ENCRIP": "qMd2MKwBE3s=",
+        "MASCOTA_TIPO_ID": 1,
+        "DESCRIPCION": "COCKER SPANIEL",
+        "TIPO": null,
+        "ID": 0,
+        "ESPECIE": "CANINO",
+        "USUARIO": 0,
+        "CODIGO": null,
+        "OPCION": 0,
+        "vPARAM1": null,
+        "vPARAM2": null
+    },
+    {
+        "__type": "ENTIDAD.ERaza",
+        "ID_ENCRIP": "A+KQqWbHI5Q=",
+        "MASCOTA_TIPO_ID": 1,
+        "DESCRIPCION": "PEQUINES",
+        "TIPO": null,
+        "ID": 0,
+        "ESPECIE": "CANINO",
+        "USUARIO": 0,
+        "CODIGO": null,
+        "OPCION": 0,
+        "vPARAM1": null,
+        "vPARAM2": null
+    },
+]

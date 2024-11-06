@@ -1,0 +1,64 @@
+.account_card {
+    margin: 20px;
+    border-color: #e3e6f0;
+    /* border: 1px solid  #e3e6f0; */
+    box-shadow: 0 0.15rem 1.75rem 0 rgba(58, 59, 69, 0.15) !important;
+    border-radius: 0.35rem;
+    background-color: white;
+}
+
+
+.account_card .account_card_header {
+    /* background-color: red; */
+  background-color:  #f8f9fc;
+  border-bottom: 1px solid #e3e6f0;
+  padding: 0px 1.25rem;
+  display: flex;
+  align-items: center;
+  color: #4e73df;
+  font-weight: 700;
+  border-top-left-radius: .35rem; 
+  border-top-right-radius: .35rem; 
+}
+
+.account_card .account_card_body .custom_form{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 1.25rem;
+}
+
+.account_card .account_card_body .inputs_group {
+   display: grid;
+   grid-template-columns: repeat(3,1fr);
+   gap: 25px;
+}
+
+.account_card .account_card_body .inputs_group div {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.account_card .account_card_body  .inputs_group input ,
+.account_card .account_card_body .inputs_group select {
+    padding: 12px 0.75rem;
+    color : #6e707e;
+    border: 1px solid #d1d3e2;
+    border-radius: 3px;
+    transition: all 0.3s;
+    outline: none;
+}
+
+.account_card .account_card_body .inputs_group label {
+    color: #6e707e;
+}
+
+.account_card .account_card_body .inputs_group label span {
+    color: #e74a3b ;
+}
+
+.account_card .account_card_body input:focus {
+    border-color: #bac8f3;
+    box-shadow: 0 0 0 0.2rem rgba(78, 115, 223, 0.25);
+}

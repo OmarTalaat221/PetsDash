@@ -1,0 +1,106 @@
+.dom_third_grid {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap:20px;
+  margin: 20px 0px;
+}
+
+.dom_input_group {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 20px;
+}
+
+.dom_textarea textarea {
+    padding: 12px 0.75rem;
+    color : #6e707e;
+    border: 1px solid #d1d3e2;
+    border-radius: 3px;
+    transition: all 0.3s;
+    outline: none;
+}
+
+.dom_textarea {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    margin: 20px 0px;
+}
+
+.btns {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.btns .btn {
+    background-color: #4e73df !important;
+    border: 1px solid #4e73df !important;
+    padding: 3px 10px;
+    border-radius: 5px;
+    color: white !important;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-top: 20px;
+}
+
+.dom_third_grid .input_group {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.dom_third_grid label {
+    color: #6e707e;
+    font-size: 16px;   
+}
+
+.dom_third_grid label span {
+    color: #e74a3b;
+}
+
+
+  
+/* Extra small devices (phones, less than 576px) */
+@media (max-width: 575.98px) {
+    /* Your styles here */
+    .dom_third_grid {
+        grid-template-columns: repeat(1,1fr);
+        gap:15px;
+        margin: 10px 0px;
+      }
+  }
+  
+  /* Small devices (tablets, 576px and up) */
+  @media (min-width: 576px) and (max-width: 767.98px) {
+    /* Your styles here */
+    .dom_third_grid {
+        grid-template-columns: repeat(1,1fr);
+        gap:15px;
+        margin: 10px 0px;
+      }
+  }
+  
+  /* Medium devices (desktops, 768px and up) */
+  @media (min-width: 768px) and (max-width: 991.98px) {
+    /* Your styles here */
+  
+  }
+  
+  /* Large devices (desktops, 992px and up) */
+  @media (min-width: 992px) and (max-width: 1199.98px) {
+    /* Your styles here */
+  }
+  
+  /* Extra large devices (large desktops, 1200px and up) */
+  @media (min-width: 1200px) and (max-width: 1399.98px) {
+    /* Your styles here */
+  }
+  
+  /* Extra extra large devices (larger desktops, 1400px and up) */
+  @media (min-width: 1400px) {
+    /* Your styles here */
+  }
+  

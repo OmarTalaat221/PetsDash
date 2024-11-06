@@ -1,0 +1,195 @@
+.pet_card_container {
+  display: flex;
+  margin: 10px auto;
+  padding: 20px;
+  background-color: #004e68;
+  color: white;
+  border-radius: 8px;
+  width: 1300px;
+}
+
+.pet_card_container * {
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+}
+
+.header {
+  margin-bottom: 5px;
+}
+
+.rump-card {
+  color: #000;
+  border-radius: 8px;
+  height: 100%;
+
+  background-position: center !important;
+  background-size: cover !important;
+}
+
+
+.rump-card .rc_image {
+  width: 100% !important;
+  height: auto;
+}
+
+.rump-card .rc_image img {
+  width: 100%;
+}
+
+.pet_image_card {
+  width: 100%;
+}
+
+.pet_image_card_sm {
+  width: 100%;
+}
+
+.pet_image_card_sm img {
+  width: 100%;
+}
+
+.pet_image_card img {
+  width: 100%;
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.rump-title {
+  font-size: 24px;
+  color: orange;
+  font-weight: bold;
+}
+
+.sub-title {
+  font-size: 14px;
+  color: gray;
+}
+
+.card-body {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.info {
+  max-width: 200px;
+}
+
+.info .label {
+  font-size: 12px;
+  color: gray;
+}
+
+.info .value {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.photo img {
+  max-width: 100px;
+  border-radius: 8px;
+}
+
+.right-section {
+  background-color: white;
+  color: black;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.card-details {
+  display: flex;
+
+  flex-direction: column;
+  gap: 10px;
+}
+
+.card-details p {
+  margin: 10px 0;
+  font-size: 14px;
+}
+
+
+@media print {
+
+  .pet_card_container {
+    width: 100%;
+
+  }
+
+
+  .pet_card_container .left-section,
+  .pet_card_container .right-section {
+    width: 100%;
+    max-width: 550px;
+
+    float: left;
+  }
+
+  .pet_card_container .left-section {
+    padding-right: 15px;
+  }
+
+  .pet_card_container .right-section {
+    padding-left: 15px;
+  }
+
+
+  .pet_card_container .text-primary {
+    font-size: 12px;
+  }
+
+  .pet_card_container img {
+    max-width: 100%;
+    height: auto;
+  }
+
+
+  .header,
+  .dni_card_buttons {
+    display: none;
+  }
+
+
+}
+
+/* Extra small devices (phones, less than 576px) */
+@media (max-width: 575.98px) {
+  /* Your styles here */
+
+}
+
+/* Small devices (tablets, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .left-section {
+    padding: 0;
+  }
+
+
+}
+
+/* Medium devices (desktops, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .left-section {
+    padding: 0;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+  /* Your styles here */
+}
+
+/* Extra extra large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+  /* Your styles here */
+}

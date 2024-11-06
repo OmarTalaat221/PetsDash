@@ -1,0 +1,65 @@
+
+
+.form_card{
+    margin: 20px;
+    border-color: #e3e6f0;
+    box-shadow: 0 0.15rem 1.75rem 0 rgba(58, 59, 69, 0.15) !important;
+    border-radius: 0.35rem;
+    background-color: white;
+    position: relative;
+    z-index: 10;
+}
+
+
+
+.form_card_header{
+  background-color:  #f8f9fc;
+  border-bottom: 1px solid #e3e6f0;
+  padding: 10px 1.25rem;
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  color: #4e73df;
+  font-weight: 700;
+  border-top-left-radius: .35rem; 
+  border-top-right-radius: .35rem; 
+  overflow: hidden;
+}
+
+.form_card_header.drawer{
+cursor: pointer;
+user-select: none;
+z-index: 100;
+position: relative;
+
+}
+
+.form_card_header.drawer.close{
+  border-radius: .35rem; 
+}
+
+.form_card_header .headerIcon{
+  font-size: 20px;
+}
+.header_drawer_icon.open{
+
+  transform: rotate(0);
+}
+
+.header_drawer_icon{
+  transform: rotate(-180deg);
+  transform-origin: center;
+  font-size: 25px;
+  color: #9f9f9f;
+} 
+
+.form_card_header h4{
+  font-size: 15px;
+  margin: 0;
+  flex-grow: 1;
+}
+
+
+.form_card .form_card_body{
+  padding: 1.25rem;
+}

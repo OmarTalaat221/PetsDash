@@ -1,0 +1,30 @@
+.drop_down_list_container {
+     background-color: white !important;
+     padding: 1rem  !important;
+     border-radius: 0.35rem !important;
+     display: flex !important;
+     flex-direction: column !important;
+     gap: 5px !important;
+     position: absolute !important;
+     top: 35px;
+     transition: all 0.3s;
+}
+
+.drop_down_list_container p {
+    color: #b7b9cc;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin: 0px;
+    padding: 0px;
+}
+
+.drop_down_list_container a {
+    /* padding: 0.5rem 0px; */
+    margin-top: 10px;
+    display: block;
+    color: #3a3b45;
+    text-decoration: none;
+    border-radius: 0.35rem;
+    white-space: nowrap;
+    font-weight: 600;
+}

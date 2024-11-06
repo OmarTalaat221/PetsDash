@@ -1,0 +1,8 @@
+.faq_span label{
+    display: block;
+}
+
+.faq_span{
+    width: 48%;
+    /* padding: 10px; */
+}

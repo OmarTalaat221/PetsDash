@@ -1,0 +1,103 @@
+.mascota_card_container {
+    margin: 20px;
+    border-color: #e3e6f0;
+    /* border: 1px solid  #e3e6f0; */
+    box-shadow: 0 0.15rem 1.75rem 0 rgba(58, 59, 69, 0.15) !important;
+    border-radius: 0.35rem;
+    background-color: white;
+}
+
+.mascota_card_container .mascota_card_header {
+    background-color:  #f8f9fc;
+  border-bottom: 1px solid #e3e6f0;
+  padding: 0px 1.25rem;
+  display: flex;
+  align-items: center;
+  color: #4e73df;
+  font-weight: 700;
+  border-top-left-radius: .35rem; 
+  border-top-right-radius: .35rem;
+}
+
+.mascota_card_body {
+    padding: 20px;
+}
+
+.mascota_card_body form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 400px;
+}
+
+.mascota_card_body form input {
+    padding: 10px;
+    background-color: #f8f9fc;
+    outline: none;
+    border: 1px solid #f8f9fc;
+    color : #6e707e;
+    width: 100%;
+    border-top-left-radius:7px ;
+    border-bottom-left-radius: 7px;
+}
+
+.mascota_card_body form div {
+    display: flex;
+}
+
+.mascota_card_body form div .search {
+  background-color: #2e59d9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 15px;
+  border-top-right-radius: 7px;
+  border-bottom-right-radius:7px ;
+}
+
+.mascota_card_body form .search svg {
+   color: white;
+   
+}
+
+.mascota_card_body form button {
+    width: fit-content;
+    margin-top: 20px;
+    /* padding: 10px ; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: #f6c23e;
+    color: white;
+    border: 1px solid #f6c23e;
+    border-radius: .35rem;
+    padding: 0px;
+}
+
+
+.mascota_card_body form .icon {
+    background-color: rgba(0, 0, 0, 0.15);
+    padding: 10px 15px;
+}
+
+.mascota_card_body form .icon svg {
+    color: rgba(255, 255, 255, 0.5) !important;
+    width: 15px;
+    height: 15px;
+    margin: auto;
+}
+
+.mascota_card_body .text {
+    padding: 0px 10px 0px 0px;
+}
+
+.mascota_table {
+    margin-bottom: 30px;
+    max-width: 1130px;
+    margin: 0px auto;
+    width: 100%;
+    overflow: auto !important;
+    /* height: 500px ; */
+    box-shadow: 0 0.15rem 1.75rem 0 rgba(58, 59, 69, 0.15) !important;
+}

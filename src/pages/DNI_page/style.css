@@ -1,0 +1,12 @@
+.dni_input > div{
+  width: 33.33%;
+}
+
+.dni_card_buttons{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  width: 40.33%;
+  margin-top: 10px;
+  flex-wrap: wrap;
+}

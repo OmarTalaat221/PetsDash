@@ -1,0 +1,135 @@
+.users_page form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+.users_page .input_group {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.user_table {
+    margin: 20px;
+    background-color: white !important;
+    min-height: 60px;
+    box-shadow: 0 0.15rem 1.75rem 0 rgba(58, 59, 69, 0.15) !important;
+    border-bottom-right-radius: 7px;
+    border-bottom-left-radius: 7px;
+}
+
+.modal_input_group {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.modal_input_group label {
+    color: #6e707e;
+}
+
+
+
+.edit_btns {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.edit_btns button:first-of-type {
+    background-color: #4e73df;
+    color: white;
+}
+
+.edit_btns button:last-of-type {
+    background-color: #e74a3b;
+    color: white;
+}
+
+.edit_btns button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 7px;
+    border-radius: 5px;
+}
+
+.checkbox-img  img{
+    width: 30px;
+    height: 30px;
+}
+
+.user-img img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.user_table p {
+    margin-left: auto;
+    width: fit-content;
+    padding: 0 10px 10px 0;
+    color: #858796;
+    font-weight: bold;
+}
+
+.user_input_group {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+    margin: 15px auto;
+}
+
+.user-select {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+ .user-select label {
+    color: #6e707e !important;
+    font-size: 14px !important;
+}
+
+ .user-select label span {
+    color: #e74a3b;
+}
+
+.user-select select {
+    padding: 12px 0.75rem;
+    color : #6e707e;
+    border: 1px solid #d1d3e2;
+    border-radius: 3px;
+    transition: all 0.3s;
+    outline: none;
+    margin-top: 0px;
+}
+
+.user-select-search {
+    width: 50%;
+}
+
+.user_foto {
+    background-color: white;
+    width: 186px;
+    height: 200px;
+    box-shadow: 0px -3px 6px 2px rgba(0,0,0,0.2);
+    margin: 30px;
+    transform: translateX(70%);
+}
+
+.user_foto img {
+    width: 100%;
+    height: 200px;
+}
+
+.user_foto button {
+    width: 100%;
+    color: white;
+    padding: 10px 0px;
+    background-color: #4e73df;
+    margin: 0px 0px;
+    box-shadow: 0px 4px 6px 2px rgba(0, 0, 0, 0.2);
+}

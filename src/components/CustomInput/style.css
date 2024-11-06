@@ -1,0 +1,42 @@
+
+
+.custom_input  {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    
+}
+.custom_input.inRow{
+    flex-direction: row;
+    align-items: center;
+    gap: 2;
+}
+
+.custom_input input ,
+.custom_input select , 
+.custom_input textarea  {
+    padding: 12px 0.75rem;
+    color : #6e707e;
+    border: 1px solid #d1d3e2;
+    border-radius: 3px;
+    transition: all 0.3s;
+    outline: none;
+}
+
+
+.custom_input label {
+    color: #6e707e;
+    font-size: 14px;
+}
+
+.custom_input label span {
+    color: #e74a3b ;
+}
+
+.custom_input input:focus, 
+.custom_input textarea:focus
+{
+    border-color: #bac8f3;
+    box-shadow: 0 0 0 0.2rem rgba(78, 115, 223, 0.25);
+}
+
